@@ -33,13 +33,13 @@ function round (user) {           //function for each round
                                             //^ tie and winning logic in if statements
                                             //V losing logic in if statements
     else if (user === r && computer === p) {
-        return `You lose! ${r} beats ${p}`
+        return `You lose! ${p} beats ${r}`
     }
     else if (user === p && computer === s) {
-        return `You lose! ${p} beats ${s}`
+        return `You lose! ${s} beats ${p}`
     }
     else if (user === s && computer === r) {
-        return `You lose! ${s} beats ${r}`
+        return `You lose! ${r} beats ${s}`
     }
 }
 
